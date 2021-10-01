@@ -19,9 +19,7 @@ After `ypm` does it's initial magic, you will be greeted by a screen like this o
 ![20211001_15h03m08s_grim](https://user-images.githubusercontent.com/71751817/135683181-873925c8-431d-4fab-ba4b-0f2aa333f601.png)
 
 here you will pick the plugins you want, say you scroll down a bit and see `style_use_term_bg`, it catches your attention because no one can get any work done if they can't see the wallpaper of their computer, so you install it and... nothing? <br />
-If you take a look at your `~/.config/yed/ypm/plugins` folder you will see a `style_use_term_bg.so` but that's it, it got compiled, got installed but we have yet to load it, so let's quickly open our `yedrc` (located in `~/.config/yed/yedrc`, and right after the line that says `load-plugin "ypm"` add a line that says `load-plugin "style_use_term_bg"`
-
-Now we shall open `yed` and get amazed at the full glory of our terminal's ~~transparency~~ background a-
+`ypm` is very neat because it autoloads everything you have installed, so now we just restart and open `yed` and get amazed at the full glory of our terminal's ~~transparency~~ background a- <br />
 ![20211001_15h44m48s_grim](https://user-images.githubusercontent.com/71751817/135684105-1e0e36c4-3bab-482b-b08d-541e5f5a3869.png)
 
 **what the fuck is this?**
