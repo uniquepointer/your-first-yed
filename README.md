@@ -74,6 +74,8 @@ So first and second can be explained by the fact that `yed` tries to stay portab
 
 To explain `meta-bsp` command further, we first write `bind meta-bsp` then we have to add the `multi` since we want this one to do more than one thing, then we follow it with `"select-lines"`, starts selection but instead of being char based it's line based, we only do this and no movement or anything else dealing with selections because we want just the line we are on, after this we do `"yank-selection 1"` the `1` paramater makes it so when we run yank-selection, it doesn't copy the selection then instantly takes us out of selection mode, finally we actually delete the line with `"delete-forward"`, you can change this to `"delete-backward"` if you like.
 
+Now we can just type `M-x` then `quit` to exit, if you want to save, simply type `write-buffer`.
+
 ## More?
 Maybe later, this is just a quick little something I wanted to write to get started.
 
