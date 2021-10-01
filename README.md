@@ -12,8 +12,8 @@ followed by this
 
 ![20211001_14h49m12s_grim](https://user-images.githubusercontent.com/71751817/135678366-2b78b3b6-7b5d-46b1-adfe-660c7466f85f.png)
 
-The first one is yed offering you a simple bare-bones configuration, I would recommend you press `y` since we are going to work based off of this. <br />
-The second one is yed offering to install it's package manager, `ypm`, not necessary, but again I recommend you press `y` because we will be working based off of this.
+The first one is `yed` offering you a simple bare-bones configuration, I would recommend you press `y` since we are going to work based off of this. <br />
+The second one is `yed` offering to install it's package manager, `ypm`, not necessary, but again I recommend you press `y` because we will be working based off of this.
 
 After `ypm` does it's initial magic, you will be greeted by a screen like this one
 ![20211001_15h03m08s_grim](https://user-images.githubusercontent.com/71751817/135683181-873925c8-431d-4fab-ba4b-0f2aa333f601.png)
@@ -21,7 +21,7 @@ After `ypm` does it's initial magic, you will be greeted by a screen like this o
 here you will pick the plugins you want, say you scroll down a bit and see `style_use_term_bg`, it catches your attention because no one can get any work done if they can't see the wallpaper of their computer, so you install it and... nothing? <br />
 If you take a look at your `~/.config/yed/ypm/plugins` folder you will see a `style_use_term_bg.so` but that's it, it got compiled, got installed but we have yet to load it, so let's quickly open our `yedrc` (located in `~/.config/yed/yedrc`, and right after the line that says `load-plugin "ypm"` add a line that says `load-plugin "style_use_term_bg"`
 
-Now we shall open yed and get amazed at the full glory of our terminal's ~~transparency~~ background a-
+Now we shall open `yed` and get amazed at the full glory of our terminal's ~~transparency~~ background a-
 ![20211001_15h44m48s_grim](https://user-images.githubusercontent.com/71751817/135684105-1e0e36c4-3bab-482b-b08d-541e5f5a3869.png)
 
 **what the fuck is this?**
@@ -31,7 +31,7 @@ Now to do some work...
 
 ## Part 2: Wait what? I have to write my own keybindings?
 
-That is correct, if you press `ctrl-y` when in yed you will get a prompt at the bottom, type `show-bindings` and you will see you have almost no keybindings!
+That is correct, if you press `ctrl-y` when in `yed` you will get a prompt at the bottom, type `show-bindings` and you will see you have almost no keybindings!
 <br />
 Keybindings get mapped to functions, be it custom or [the ones that come by default](https://your-editor.org/cmd_ref.html), theres A LOT of them, [Sir CEO of yed kammerdiener](https://github.com/kammerdienerb/yed) likes to keep his programs portable and clean so while `yed` does not get features every single release, the features it does get added to the core are stable and work everywhere, the rest is left up to the users, `yed` gets it's power from its flexibility (where have I heard that one before).
 
