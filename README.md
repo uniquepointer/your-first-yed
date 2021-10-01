@@ -36,7 +36,7 @@ That is correct, if you press `ctrl-y` when in `yed` you will get a prompt at th
 Keybindings get mapped to functions, be it custom or [the ones that come by default](https://your-editor.org/cmd_ref.html), theres A LOT of them, [Sir CEO of yed kammerdiener](https://github.com/kammerdienerb/yed) likes to keep his programs portable and clean so while `yed` does not get features every single release, the features it does get added to the core are stable and work everywhere, the rest is left up to the users, `yed` gets it's power from its flexibility (where have I heard that one before).
 
 I will not go through the keybindings in this tutorial, but for some emacs-like to get you started I will give you this, paste it at the end of your `yedrc`
-```
+``` bash
 bind "ctrl-x ctrl-c" quit
 bind "ctrl-x ctrl-u" undo
 bind "ctrl-x ctrl-r" redo
