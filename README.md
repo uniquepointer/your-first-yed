@@ -1,5 +1,5 @@
 # Your first YED!
-
+You should [read this](https://your-editor.org/user_guide.html) after you're done with this short tutorial.
 ## Part 1: Initial greeting
 
 Hello and welcomed to a simple config tutorial for `yed`.
@@ -80,3 +80,5 @@ Now we can just type `M-x` then `quit` to exit, if you want to save, simply type
 Maybe later, this is just a quick little something I wanted to write to get started.
 
 For now you know how to install plugins and load them and where to look for configuration, including the man pages and the [command reference](https://your-editor.org/cmd_ref.html).
+
+and also [read this](https://your-editor.org/user_guide.html) 😡
