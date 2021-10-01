@@ -76,3 +76,5 @@ To explain `meta-bsp` command further, we first write `bind meta-bsp` then we ha
 
 ## More?
 Maybe later, this is just a quick little something I wanted to write to get started.
+
+For now you know how to install plugins and load them and where to look for configuration, including the man pages and the [command reference](https://your-editor.org/cmd_ref.html).
