@@ -82,6 +82,9 @@ To explain `meta-bsp` command further, we first write `bind meta-bsp` then we ha
 
 Now we can just type `meta-x` then `quit` to exit, if you want to save, simply type `write-buffer`. Orrrrrr just `ctrl-x ctrl-s` followed by `ctrl-x ctrl-c` to accomplish the same.
 
+#### Simple tips
+* You might want to set the variable truecolor before `ypm` plugin loads so you get 24 bit color support.
+  * You do so by putting `set truecolor "yes"` in the first line
 
 ## More?
 Maybe later, this is just a quick little something I wanted to write to get started.
