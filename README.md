@@ -1,5 +1,10 @@
 # Your first YED!
 You should [read this](https://your-editor.org/user_guide.html) after you're done with this short tutorial.
+#### Things to know before we get started
+* This guide assumes your XDG Config Home is at `~/.config/`
+* Also assumes no previous knowledge of yed
+With that, let's get to it.
+
 ## Part 1: Initial greeting
 
 Hello and welcomed to a simple config tutorial for `yed`.
