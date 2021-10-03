@@ -23,7 +23,7 @@ here you will pick the plugins you want, say you scroll down a bit and see `styl
 ![20211001_15h44m48s_grim](https://user-images.githubusercontent.com/71751817/135684105-1e0e36c4-3bab-482b-b08d-541e5f5a3869.png)
 
 **what the fuck is this?**
-Ok so if we go full sherlock and run `man ~/.config/yed/ypm/man/man7/style_use_term_bg.7` you will see that there is a function called `style-term-bg` and it takes 1 parameter, `<style>`, so we gotta go and open our `yedrc` again, find the line that says `style casey` and replace it with `style-term-bg casey`, save and exit and you will finally see a very beautiful `yed`.
+Ok so if we go full sherlock and run `man ~/.config/yed/ypm/man/man7/style_use_term_bg.7` you will see that there is a function called `style-term-bg` and it takes 1 parameter, `<style>`, so we gotta go and open our `yedrc`, find the line that says `style casey` and replace it with `style-term-bg casey`, save and exit and you will finally see a very beautiful `yed`.
 
 Now to do some work...
 
