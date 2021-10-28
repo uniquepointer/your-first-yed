@@ -21,6 +21,8 @@ followed by this
 The first one is `yed` offering you a simple bare-bones configuration, I would recommend you press `y` since we are going to work based off of this. <br />
 The second one is `yed` offering to install it's package manager, `ypm`, not necessary, but again I recommend you press `y` because we will be working based off of this.
 
+Word of advice, if you installed yed at version `1203` or later there is now a `build.sh` script in your config folder, this can be used to rebuild `init.so` (aka the plugin of all plugins) outside of yed.
+
 After `ypm` does it's initial magic, you will be greeted by a screen like this one
 ![20211001_15h03m08s_grim](https://user-images.githubusercontent.com/71751817/135683181-873925c8-431d-4fab-ba4b-0f2aa333f601.png)
 
